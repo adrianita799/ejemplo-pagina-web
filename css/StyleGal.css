@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+#principal li {
+   background-color:#99FF99;
+   border-right: #FFC0CB solid 1px;
+   border-bottom: #FFFF99 solid 1px;
+   display:inline;
+   float:left;
+   font-family:courier new;
+   padding:5px;
+   margin:10px;
+   text-align: center;
+   color:#OOOOOO;
+   width:220px;
+} 
+h3{
+	font-family:courier new;
+	text-align:center;
+}

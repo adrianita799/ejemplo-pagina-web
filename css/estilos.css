@@ -1,0 +1,91 @@
+
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+{
+	border:0.5em;
+	margin:0;
+	padding:0;
+}
+article,header,nav,section#contenedor{
+	border-radius:.5em;
+	margin:.3em auto;
+	padding:.3em;
+	font-family:courier new;
+	width:95%;
+}
+aside{
+	border-radius:.5em;
+	margin:.3em auto;
+	padding:.3em;
+	width:40%;
+}
+section#contenido{
+	background-color:#0F0;
+width:60%;	
+}	
+/* Para colocar las cajitas a la barra de navegacion*/
+{
+	font-weight:bold;
+	text-decoration:none;
+}
+article{
+	display:inline-block;
+	text-align:justify;
+	width:31%;
+}
+footer{
+	    background-color:#ddd;
+		font-family:courier new;
+		font-size:.7em;
+		margin:.5em;
+		text-align:center;
+		padding:5px;
+}
+header{
+	background-color:#FF0000;
+	color:#000;
+	font-size:2em;
+	text-align:center;
+}
+nav{
+	background-color:black;
+	text-align:left;
+}
+nav ul{
+	list-style:none;
+}
+/*Barra de navegacion del menu*/
+nav li{
+	display:inline-block;
+	padding:0.2em;
+}
+nav a{
+	-webkit-border-radius:0.25em;
+	-o-border-radius:0.25em;
+	-moz-border-radius:0.25em;
+	-ms-border-radius:0.25em;
+	border-radius:0.25em;
+	color:#FFF;
+	display:block;
+	font-size:1.4em;
+	padding:0.2em;
+	-webkit-transition:all .1em ease-in;/*Elementos duracion Efecto tiempo-inicio*/
+	-o-transition:all .1em ease-in;
+	-moz-transition:all .1em ease-in;
+	-ms-transition:all .1em ease-in;
+	transition:all .1em ease-in;
+	}
+	/* Cuando pasa el mouse sobre la  bara de navegacion*/
+	nav a:hover{
+		background-color:#99CCFF;
+		color:#FFF;
+	}
+/* Este es el cuadro verde*/	
+section#contenido{
+	background-image:url("IG2.PNG");
+	background-repeat: no-repeat;
+	background-position: left;
+
+	
+}
